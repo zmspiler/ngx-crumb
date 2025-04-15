@@ -1,6 +1,19 @@
 {
   "name": "ngx-crumb",
   "version": "0.0.0",
+  "author": {
+    "name": "Žiga Maj Špiler"
+  },
+  "repository": {
+    "url": "https://github.com/zmspiler/ngx-crumb",
+    "type": "github"
+  },
+  "keywords": [
+    "angular",
+    "breadcrumbs",
+    "routing",
+    "navigation"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +21,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/common": "^19.2.0",
     "@angular/compiler": "^19.2.0",
