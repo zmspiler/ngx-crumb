@@ -1,0 +1,15 @@
+#container {
+  background: #1008a3;
+  background: linear-gradient(
+    90deg,
+    rgba(16, 8, 163, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(6, 156, 66, 1) 100%
+  );
+  color: #fff;
+
+  h1 {
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+}
