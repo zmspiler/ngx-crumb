@@ -5,5 +5,39 @@
     "packageManager": "pnpm"
   },
   "newProjectRoot": "projects",
-  "projects": {}
+  "projects": {
+    "ngx-crumb": {
+      "projectType": "library",
+      "root": "projects/ngx-crumb",
+      "sourceRoot": "projects/ngx-crumb/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngx-crumb/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-crumb/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-crumb/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/ngx-crumb/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    }
+  }
 }

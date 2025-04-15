@@ -1,0 +1,25 @@
+{
+  "name": "ngx-crumb",
+  "version": "0.0.1",
+  "author": {
+    "name": "Žiga Maj Špiler"
+  },
+  "repository": {
+    "url": "https://github.com/zmspiler/ngx-crumb",
+    "type": "github"
+  },
+  "keywords": [
+    "angular",
+    "breadcrumbs",
+    "routing",
+    "navigation"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^19.2.0",
+    "@angular/core": "^19.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false
+}
