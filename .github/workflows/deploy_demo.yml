@@ -28,7 +28,7 @@ jobs:
         run: pnpm install --prefer-offline --frozen-lockfile
 
       - name: Build
-        run: pnpm build --configuration=production ngx-crumb-demo
+        run: pnpm run build:github-pages
 
       - name: Upload static files as artifact
         uses: actions/upload-pages-artifact@v3

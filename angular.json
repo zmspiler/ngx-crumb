@@ -63,12 +63,7 @@
               }
             ],
             "styles": ["projects/ngx-crumb-demo/src/styles.scss"],
-            "scripts": [],
-            "server": "projects/ngx-crumb-demo/src/main.server.ts",
-            "outputMode": "server",
-            "ssr": {
-              "entry": "projects/ngx-crumb-demo/src/server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
