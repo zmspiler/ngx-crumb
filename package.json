@@ -10,7 +10,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:github-pages": "ng build ngx-crumb-demo --configuration production --base-href https://zmspiler.github.io/ngx-crumb/"
+    "build:github-pages": "ng build ngx-crumb-demo --configuration production --base-href https://demo.ngx-crumb.com"
   },
   "private": true,
   "dependencies": {
