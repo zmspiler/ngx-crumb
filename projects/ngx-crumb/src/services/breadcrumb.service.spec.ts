@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { NgxCrumbService } from './ngx-crumb.service';
+import { BreadcrumbService } from './breadcrumb.service';
 
-describe('NgxCrumbService', () => {
-  let service: NgxCrumbService;
+describe('BreadcrumbService', () => {
+  let service: BreadcrumbService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(NgxCrumbService);
+    service = TestBed.inject(BreadcrumbService);
   });
 
   it('should be created', () => {

@@ -8,9 +8,8 @@ describe('NgxCrumbComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NgxCrumbComponent]
-    })
-    .compileComponents();
+      imports: [NgxCrumbComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(NgxCrumbComponent);
     component = fixture.componentInstance;
