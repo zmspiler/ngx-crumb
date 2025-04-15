@@ -31,10 +31,7 @@
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "tsConfig": "projects/ngx-crumb/tsconfig.spec.json",
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ]
+            "polyfills": ["zone.js", "zone.js/testing"]
           }
         }
       }
@@ -56,9 +53,7 @@
             "outputPath": "dist/ngx-crumb-demo",
             "index": "projects/ngx-crumb-demo/src/index.html",
             "browser": "projects/ngx-crumb-demo/src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "projects/ngx-crumb-demo/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -67,9 +62,7 @@
                 "input": "projects/ngx-crumb-demo/public"
               }
             ],
-            "styles": [
-              "projects/ngx-crumb-demo/src/styles.scss"
-            ],
+            "styles": ["projects/ngx-crumb-demo/src/styles.scss"],
             "scripts": [],
             "server": "projects/ngx-crumb-demo/src/main.server.ts",
             "outputMode": "server",
@@ -119,10 +112,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/ngx-crumb-demo/tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -131,9 +121,7 @@
                 "input": "projects/ngx-crumb-demo/public"
               }
             ],
-            "styles": [
-              "projects/ngx-crumb-demo/src/styles.scss"
-            ],
+            "styles": ["projects/ngx-crumb-demo/src/styles.scss"],
             "scripts": []
           }
         }

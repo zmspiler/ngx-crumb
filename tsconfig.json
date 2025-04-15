@@ -10,9 +10,7 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "ngx-crumb": [
-        "./dist/ngx-crumb"
-      ]
+      "ngx-crumb": ["./dist/ngx-crumb"]
     },
     "skipLibCheck": true,
     "isolatedModules": true,
