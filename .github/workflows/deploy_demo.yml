@@ -30,6 +30,9 @@ jobs:
       - name: Build
         run: pnpm run build:github-pages
 
+      - name: Set up 404 page for GitHub Pages
+        run: cp dist/ngx-crumb-demo/browser/index.html dist/ngx-crumb-demo/browser/404.html
+
       - name: Upload static files as artifact
         uses: actions/upload-pages-artifact@v3
         with:
